@@ -4,6 +4,7 @@ SPDX-FileCopyrightText: 2024 GSI Helmholtzzentrum fuer Schwerionenforschung GmbH
 -->
 
 [![REUSE status](https://github.com/GSI-HPC/github-workflow-templates/actions/workflows/reuse.yml/badge.svg)](https://github.com/GSI-HPC/github-workflow-templates/actions/workflows/reuse.yml)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8B%20%20%E2%97%8B%20%20%E2%97%8B-red)](https://fair-software.eu)
 
 ## How to use in your project
 
