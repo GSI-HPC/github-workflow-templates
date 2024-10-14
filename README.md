@@ -3,15 +3,17 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 SPDX-FileCopyrightText: 2024 GSI Helmholtzzentrum fuer Schwerionenforschung GmbH <https://gsi.de>
 -->
 
+[![REUSE status](https://github.com/GSI-HPC/github-workflow-templates/actions/workflows/reuse.yml/badge.svg)](https://github.com/GSI-HPC/github-workflow-templates/actions/workflows/reuse.yml)
+
 ## How to use in your project
 
 ```sh
 cd <your repo root>
-wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/master/.pre-commit-config.yaml
+wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/main/.pre-commit-config.yaml
 mkdir -p .github/workflows
 cd .github/workflows
-wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/master/fair-software.yml
-wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/master/reuse.yml
+wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/main/.github/workflows/fair-software.yml
+wget https://github.com/GSI-HPC/github-workflow-templates/raw/refs/heads/main/.github/workflows/reuse.yml
 cd ../..
 git add .pre-commit-config.yaml .github/workflows/fair-software.yml .github/workflows/reuse.yml
 ```
